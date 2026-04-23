@@ -20,8 +20,8 @@ This project studies asteroid trajectory deflection and computes the minimum-ene
 This project models the spread of a Cordyceps-like infection through an ant colony using an agent-based stochastic simulation.
 
 **Collaborators:**  
-- Hugh Richards  
-- Damiane Kapanadze
+- [Hugh Richards](https://github.com/xHJRM)
+- [Damiane Kapanadze](https://github.com/DamianeKapanadze)
 
 ---
 
@@ -31,8 +31,8 @@ This project models the spread of a Cordyceps-like infection through an ant colo
 This project builds arithmetic routines on a minimal simulated computer, including operations such as multiplication, division, and GCD, to explore low-level computation and control flow.
 
 **Collaborators:**  
-- Hugh Richards  
-- Damiane Kapanadze
+- [Hugh Richards](https://github.com/xHJRM)
+- [Damiane Kapanadze](https://github.com/DamianeKapanadze)
 
 ---
 
