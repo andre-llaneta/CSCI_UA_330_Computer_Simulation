@@ -1,3 +1,16 @@
+"""
+Project 3: Building Arithmetic Routines on a Simulated Computer
+CSCI-UA 330 - Introduction to Computer Simulation
+Spring 2026
+
+Implements arithmetic routines on a minimal simulated computer using a
+memory-and-register machine model. The project builds multiplication,
+division, and GCD as instruction-level programs and composes them into
+larger expressions executed through the simulated CPU.
+
+Dependencies: numpy
+"""
+
 import math
 
 from cpu_core import (

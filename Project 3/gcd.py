@@ -10,8 +10,6 @@ def emit_gcd(mem, start, a, return_line):
     Output:
         a['OUT0']
     Assumes nonnegative inputs.
-    Clobbers:
-        a['GCD_A'], a['GCD_B'], a['GCD_WORK']
     Returns:
         next free line after the routine
     """
@@ -42,7 +40,7 @@ def emit_gcd(mem, start, a, return_line):
     set_instr(mem, pc, SUB, a['GCD_B']); pc += 1
     set_instr(mem, pc, AND, a['SIGN_MASK']); pc += 1
     mod_done_branch = pc
-    set_instr(mem, pc, BNZ, 0); pc += 1  # patched to MOD_DONE
+    set_instr(mem, pc, BNZ, 0); pc += 1
 
     set_instr(mem, pc, LOAD, a['GCD_WORK']); pc += 1
     set_instr(mem, pc, SUB, a['GCD_B']); pc += 1
