@@ -70,10 +70,10 @@ GCD_START = 300
 DIV_START = 400
 
 # Edit these four values to run: (a * b) / gcd(c, d)
-INPUT_A = 30
-INPUT_B = 18
-INPUT_C = 630
-INPUT_D = 90
+INPUT_A = 25
+INPUT_B = 14
+INPUT_C = 210
+INPUT_D = 84
 
 
 def init_data(mem):
